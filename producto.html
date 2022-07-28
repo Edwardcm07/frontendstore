@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src=img/logo.png alt="logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Producto</h1>
+
+        <div class="camisa">
+            <img src="img/3.jpg" alt="imagen del producto" class="camisa__imagen">
+            <div class="camisa__contenido">
+                <p>Curabitur non auctor urna, eget vestibulum turpis. Nullam ligula massa, hendrerit et rutrum vitae, lacinia nec felis. Vestibulum lectus est, viverra id malesuada eu, tincidunt vel metus. In facilisis aliquam massa non lobortis. Duis eu sodales nunc. Vestibulum a lacus sed ipsum rhoncus porttitor. </p>
+
+                <form action="" class="formulario">
+                    <select class="formulario__campo"name="" id="">
+                        <option disable select value="">--Seleccionar talla--</option>
+                        <option value="">s</option>
+                        <option value="">sx</option>
+                        <option value="">m</option>
+                        <option value="">x</option>
+                        <option value="">xl</option>
+                    </select>
+                        <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                        <input class="formulario__submit" type="submit" Value="Agregar al carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Edward Cano - Todos los derechos reservados 2022.</p>
+    </footer>
+
+</body>
+</html>
